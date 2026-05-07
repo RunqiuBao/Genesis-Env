@@ -6,9 +6,9 @@ Having a simulation and digital twin environment is a must for any robotics engi
 - Build an env with Genesis simulator by a single make command `make docker`.
 
 ## How to use
-In a docker container:
+In a host PC with cuda installed:
 ```
-git clone https://github.com/RunqiuBao/config_genesis_in_docker.git
-cd config_genesis_in_docker/
+git clone git@github.com:RunqiuBao/Genesis-Env.git
+cd Genesis-Env/
 make docker
 ```
